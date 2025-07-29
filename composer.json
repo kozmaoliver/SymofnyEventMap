@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kozmaoliver\\SymfonyEventMap\\\\": "src/"
+            "Kozmaoliver\\SymfonyEventMap\\": "src/"
         }
     },
     "autoload-dev": {
