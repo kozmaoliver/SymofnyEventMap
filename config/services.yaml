@@ -3,17 +3,17 @@ services:
         autowire: true
         autoconfigure: true
 
-    Kozmaoliver\EventMap\SymfonyEventMap\EventScanner:
+    Kozmaoliver\SymfonyEventMap\EventScanner:
         arguments:
             $scanDirectories: '%event_map.scan_directories%'
             $excludePatterns: '%event_map.exclude_patterns%'
 
-    Kozmaoliver\EventMap\SymfonyEventMap\ListenerMapper:
+    Kozmaoliver\SymfonyEventMap\ListenerMapper:
         arguments:
             $eventDispatcher: '@event_dispatcher'
             $container: '@service_container'
 
-    Kozmaoliver\EventMap\SymfonyEventMap\EventMapService: ~
+    Kozmaoliver\SymfonyEventMap\EventMapService: ~
 
     Kozmaoliver\SymfonyEventMap\Command\GenerateEventMapCommand:
         tags:
