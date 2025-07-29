@@ -18,7 +18,7 @@ class EventMapExtension extends Extension
         $container->setParameter('event_map.scan_directories', $config['scan_directories']);
         $container->setParameter('event_map.exclude_patterns', $config['exclude_patterns']);
 
-        $loader = new YamlFileLoader($container, new FileLocator(__DIR__ . '../../config'));
+        $loader = new YamlFileLoader($container, new FileLocator(__DIR__ . '/../../config'));
         $loader->load('services.yaml');
     }
 }
