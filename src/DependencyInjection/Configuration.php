@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\EventMap\DependencyInjection;
+namespace App\SymfonyEventMap\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

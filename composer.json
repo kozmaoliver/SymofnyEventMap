@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Kozmaoliver\\EventMapBundle\\\\": "src/"
+            "Kozmaoliver\\SymfonyEventMap\\\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kozmaoliver\\EventMapBundle\\Tests\\": "tests/"
+            "Kozmaoliver\\SymfonyEventMap\\Tests\\": "tests/"
         }
     },
     "extra": {

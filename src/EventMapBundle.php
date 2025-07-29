@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Kozmaoliver\EventMap;
+namespace Kozmaoliver\SymfonyEventMap;
 
-use Kozmaoliver\EventMap\DependencyInjection\EventMapExtension;
+use Kozmaoliver\SymfonyEventMap\DependencyInjection\EventMapExtension;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 

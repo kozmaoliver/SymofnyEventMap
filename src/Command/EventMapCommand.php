@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Kozmaoliver\EventMap\Command;
+namespace Kozmaoliver\SymfonyEventMap\Command;
 
 use Kozmaoliver\EventMap\Service\EventMapService;
 use Symfony\Component\Console\Attribute\AsCommand;

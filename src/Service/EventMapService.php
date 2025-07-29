@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Kozmaoliver\EventMap\Service;
+namespace Kozmaoliver\SymfonyEventMap\Service;
 
 class EventMapService
 {
