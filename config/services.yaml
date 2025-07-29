@@ -1,0 +1,20 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    App\EventMap\Service\EventScanner:
+        arguments:
+            $scanDirectories: '%event_map.scan_directories%'
+            $excludePatterns: '%event_map.exclude_patterns%'
+
+    App\EventMap\Service\ListenerMapper:
+        arguments:
+            $eventDispatcher: '@event_dispatcher'
+            $container: '@service_container'
+
+    App\EventMap\Service\EventMapService: ~
+
+    App\EventMap\Command\GenerateEventMapCommand:
+        tags:
+            - { name: console.command }

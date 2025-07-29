@@ -1,0 +1,41 @@
+{
+    "name": "kozmaoliver/symfony-event-map",
+    "description": "Event visualizer for Symfony projects",
+    "type": "symfony-bundle",
+    "keywords": ["event"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oliver Kozma",
+            "homepage": "https://kozmaoliver.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "symfony/framework-bundle": "^6.4|^7.0",
+        "symfony/dependency-injection": "^6.0|^7.0",
+        "symfony/config": "^6.0|^7.0",
+        "symfony/finder": "^7.3",
+        "nikic/php-parser": "^5.6",
+        "symfony/console": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0|^10.0",
+        "symfony/phpunit-bridge": "^6.0|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kozmaoliver\\EventMapBundle\\\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kozmaoliver\\EventMapBundle\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0-dev"
+        }
+    }
+}
