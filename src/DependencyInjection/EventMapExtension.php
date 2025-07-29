@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Kozmaoliver\EventMapBundle\DependencyInjection;
+namespace Kozmaoliver\EventMap\DependencyInjection;
 
 use Symfony\Bundle\FrameworkBundle\DependencyInjection\Configuration;
 use Symfony\Component\Config\FileLocator;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Kozmaoliver\EventMapBundle\Service;
+namespace Kozmaoliver\EventMap\Service;
 
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;

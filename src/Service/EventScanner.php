@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Kozmaoliver\EventMapBundle\Service;
+namespace Kozmaoliver\EventMap\Service;
 
 use PhpParser\Node;
 use PhpParser\NodeFinder;
